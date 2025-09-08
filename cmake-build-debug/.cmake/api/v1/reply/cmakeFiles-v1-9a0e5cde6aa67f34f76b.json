@@ -149,6 +149,12 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "D:/Program Files/JetBrains/CLion 2024.1.4/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "homework_01/CMakeLists.txt"
+		},
+		{
+			"path" : "OnlineTest_00/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

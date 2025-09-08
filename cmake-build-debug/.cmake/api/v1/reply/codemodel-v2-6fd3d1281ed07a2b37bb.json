@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "homework_01",
+					"jsonFile" : "directory-homework_01-Debug-af63ccdfa899471733b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "homework_01",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "OnlineTest_00",
+					"jsonFile" : "directory-OnlineTest_00-Debug-5456ea158363aa7788dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "OnlineTest_00",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Code_C__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Student::@35c0657b39db1f1744db",
+					"jsonFile" : "target-Student-Debug-7d150fe2ea002c313db7.json",
+					"name" : "Student",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "apple::@35c0657b39db1f1744db",
+					"jsonFile" : "target-apple-Debug-9d227b4dc8c5d9599e31.json",
+					"name" : "apple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "clock::@b43ed28d4365445bd67e",
+					"jsonFile" : "target-clock-Debug-ee69aa62bd9e6206afff.json",
+					"name" : "clock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-f0b1a519b3b11fb22714.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "theKeyofFunc::@b43ed28d4365445bd67e",
+					"jsonFile" : "target-theKeyofFunc-Debug-9c9bb39aa8e3b63ff3ca.json",
+					"name" : "theKeyofFunc",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Code_jetbrains_toolbox/Code_Cplusplus/cmake-build-debug",
+		"source" : "D:/Code_jetbrains_toolbox/Code_Cplusplus"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
