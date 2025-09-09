@@ -20,7 +20,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						3
+						6
 					]
 				},
 				{
@@ -35,8 +35,11 @@
 					"source" : "homework_01",
 					"targetIndexes" : 
 					[
-						2,
-						4
+						0,
+						1,
+						4,
+						5,
+						7
 					]
 				},
 				{
@@ -51,8 +54,8 @@
 					"source" : "OnlineTest_00",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						2,
+						3
 					]
 				}
 			],
@@ -73,12 +76,29 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 1,
+					"id" : "KeyFormatting::@b43ed28d4365445bd67e",
+					"jsonFile" : "target-KeyFormatting-Debug-b3ae45255cb4709259ed.json",
+					"name" : "KeyFormatting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MinimumSubArray::@b43ed28d4365445bd67e",
+					"jsonFile" : "target-MinimumSubArray-Debug-614d837eead6a5c90359.json",
+					"name" : "MinimumSubArray",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 2,
 					"id" : "Student::@35c0657b39db1f1744db",
@@ -98,6 +118,13 @@
 					"id" : "clock::@b43ed28d4365445bd67e",
 					"jsonFile" : "target-clock-Debug-ee69aa62bd9e6206afff.json",
 					"name" : "clock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "countFreqofABC::@b43ed28d4365445bd67e",
+					"jsonFile" : "target-countFreqofABC-Debug-edb3bec2cad0b9fbb2d6.json",
+					"name" : "countFreqofABC",
 					"projectIndex" : 0
 				},
 				{

@@ -1,9 +1,11 @@
 # ninja log v6
+9	750	7791054565533056	homework_01/CMakeFiles/MinimumSubArray.dir/MinimumSubArray.cpp.obj	ad30fc55f54bc4dd
 8	859	7790190910192794	CMakeFiles/Code_C__.dir/main.cpp.obj	44fd8c9890088628
 10	1174	7790210100476142	CMakeFiles/Code_C__.dir/apple.cpp.obj	634859dcafa21022
 8	1074	7790214094655734	CMakeFiles/Code_C__.dir/1_clock.cpp.obj	a9d4bbadadf7e16d
-5	1698	7790510418169620	build.ninja	f45a3e5a75d63d7a
+5	1698	7791076436678115	build.ninja	f45a3e5a75d63d7a
 8	853	7790215449094322	CMakeFiles/Code_C__.dir/homework_01/clock.cpp.obj	73f6841e846bb4aa
+1094	1925	7790958248802168	homework_01/theKeyofFunc.exe	905545875eca302a
 5	851	7790220360663948	CMakeFiles/AppleProgram.dir/apple.cpp.obj	170b4b9a1a2b5962
 9	1316	7790414913104997	CMakeFiles/ClockProgram.dir/homework_01/clock.cpp.obj	62fc57732d6d3d30
 1317	2146	7790414926185805	ClockProgram.exe	53441b0e4300eaf4
@@ -11,3 +13,19 @@
 9	1215	7790503969079933	CMakeFiles/AppleProgram.dir/OnlineTest_00/Student.cpp.obj	4007d226f722edc7
 5	943	7790510524223196	OnlineTest_00/CMakeFiles/Student.dir/Student.cpp.obj	69fc01bea760df8e
 945	1703	7790510533622300	OnlineTest_00/Student.exe	83b2f4d3b865d447
+11	1093	7790958237973655	homework_01/CMakeFiles/theKeyofFunc.dir/theKeyofFunc.cpp.obj	69c75bdc95bb030c
+10	913	7791003651920358	homework_01/CMakeFiles/countFreqofABC.dir/countFreqofABC.cpp.obj	d361ef869c4a7df3
+914	1482	7791003660955595	homework_01/countFreqofABC.exe	3e02d87e96115ad8
+751	1267	7791054573055763	homework_01/MinimumSubArray.exe	6075f9f40afb128a
+6	1143	7791102881855608	homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj	b6d9d8a481481078
+1144	1917	7791102893239368	homework_01/KeyFormatting.exe	cd566451f8083bf8
+11	1002	7791103467588886	homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj	b6d9d8a481481078
+1003	1597	7791103477503774	homework_01/KeyFormatting.exe	cd566451f8083bf8
+10	1021	7791104698701123	homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj	b6d9d8a481481078
+1022	1628	7791104708829799	homework_01/KeyFormatting.exe	cd566451f8083bf8
+9	987	7791105649162549	homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj	b6d9d8a481481078
+988	1614	7791105658948214	homework_01/KeyFormatting.exe	cd566451f8083bf8
+10	989	7791110421527560	homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj	b6d9d8a481481078
+990	1608	7791110431327417	homework_01/KeyFormatting.exe	cd566451f8083bf8
+10	1059	7791110831623152	homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj	b6d9d8a481481078
+1061	1777	7791110842130168	homework_01/KeyFormatting.exe	cd566451f8083bf8

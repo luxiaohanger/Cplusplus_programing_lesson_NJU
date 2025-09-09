@@ -167,6 +167,105 @@ build homework_01/theKeyofFunc.exe: CXX_EXECUTABLE_LINKER__theKeyofFunc_Debug ho
   TARGET_IMPLIB = homework_01\libtheKeyofFunc.dll.a
   TARGET_PDB = theKeyofFunc.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target countFreqofABC
+
+
+#############################################
+# Order-only phony target for countFreqofABC
+
+build cmake_object_order_depends_target_countFreqofABC: phony || .
+
+build homework_01/CMakeFiles/countFreqofABC.dir/countFreqofABC.cpp.obj: CXX_COMPILER__countFreqofABC_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_Cplusplus/homework_01/countFreqofABC.cpp || cmake_object_order_depends_target_countFreqofABC
+  DEP_FILE = homework_01\CMakeFiles\countFreqofABC.dir\countFreqofABC.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = homework_01\CMakeFiles\countFreqofABC.dir
+  OBJECT_FILE_DIR = homework_01\CMakeFiles\countFreqofABC.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target countFreqofABC
+
+
+#############################################
+# Link the executable homework_01\countFreqofABC.exe
+
+build homework_01/countFreqofABC.exe: CXX_EXECUTABLE_LINKER__countFreqofABC_Debug homework_01/CMakeFiles/countFreqofABC.dir/countFreqofABC.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework_01\CMakeFiles\countFreqofABC.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework_01\countFreqofABC.exe
+  TARGET_IMPLIB = homework_01\libcountFreqofABC.dll.a
+  TARGET_PDB = countFreqofABC.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MinimumSubArray
+
+
+#############################################
+# Order-only phony target for MinimumSubArray
+
+build cmake_object_order_depends_target_MinimumSubArray: phony || .
+
+build homework_01/CMakeFiles/MinimumSubArray.dir/MinimumSubArray.cpp.obj: CXX_COMPILER__MinimumSubArray_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_Cplusplus/homework_01/MinimumSubArray.cpp || cmake_object_order_depends_target_MinimumSubArray
+  DEP_FILE = homework_01\CMakeFiles\MinimumSubArray.dir\MinimumSubArray.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = homework_01\CMakeFiles\MinimumSubArray.dir
+  OBJECT_FILE_DIR = homework_01\CMakeFiles\MinimumSubArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MinimumSubArray
+
+
+#############################################
+# Link the executable homework_01\MinimumSubArray.exe
+
+build homework_01/MinimumSubArray.exe: CXX_EXECUTABLE_LINKER__MinimumSubArray_Debug homework_01/CMakeFiles/MinimumSubArray.dir/MinimumSubArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework_01\CMakeFiles\MinimumSubArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework_01\MinimumSubArray.exe
+  TARGET_IMPLIB = homework_01\libMinimumSubArray.dll.a
+  TARGET_PDB = MinimumSubArray.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target KeyFormatting
+
+
+#############################################
+# Order-only phony target for KeyFormatting
+
+build cmake_object_order_depends_target_KeyFormatting: phony || .
+
+build homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj: CXX_COMPILER__KeyFormatting_unscanned_Debug D$:/Code_jetbrains_toolbox/Code_Cplusplus/homework_01/KeyFormatting.cpp || cmake_object_order_depends_target_KeyFormatting
+  DEP_FILE = homework_01\CMakeFiles\KeyFormatting.dir\KeyFormatting.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = homework_01\CMakeFiles\KeyFormatting.dir
+  OBJECT_FILE_DIR = homework_01\CMakeFiles\KeyFormatting.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target KeyFormatting
+
+
+#############################################
+# Link the executable homework_01\KeyFormatting.exe
+
+build homework_01/KeyFormatting.exe: CXX_EXECUTABLE_LINKER__KeyFormatting_Debug homework_01/CMakeFiles/KeyFormatting.dir/KeyFormatting.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = homework_01\CMakeFiles\KeyFormatting.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = homework_01\KeyFormatting.exe
+  TARGET_IMPLIB = homework_01\libKeyFormatting.dll.a
+  TARGET_PDB = KeyFormatting.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -287,6 +386,14 @@ build OnlineTest_00/rebuild_cache: phony OnlineTest_00/CMakeFiles/rebuild_cache.
 # =============================================================================
 # Target aliases.
 
+build KeyFormatting: phony homework_01/KeyFormatting.exe
+
+build KeyFormatting.exe: phony homework_01/KeyFormatting.exe
+
+build MinimumSubArray: phony homework_01/MinimumSubArray.exe
+
+build MinimumSubArray.exe: phony homework_01/MinimumSubArray.exe
+
 build Student: phony OnlineTest_00/Student.exe
 
 build Student.exe: phony OnlineTest_00/Student.exe
@@ -298,6 +405,10 @@ build apple.exe: phony OnlineTest_00/apple.exe
 build clock: phony homework_01/clock.exe
 
 build clock.exe: phony homework_01/clock.exe
+
+build countFreqofABC: phony homework_01/countFreqofABC.exe
+
+build countFreqofABC.exe: phony homework_01/countFreqofABC.exe
 
 build main: phony main.exe
 
@@ -327,7 +438,7 @@ build OnlineTest_00/all: phony OnlineTest_00/apple.exe OnlineTest_00/Student.exe
 #############################################
 # Folder: D:/Code_jetbrains_toolbox/Code_Cplusplus/cmake-build-debug/homework_01
 
-build homework_01/all: phony homework_01/clock.exe homework_01/theKeyofFunc.exe
+build homework_01/all: phony homework_01/clock.exe homework_01/theKeyofFunc.exe homework_01/countFreqofABC.exe homework_01/MinimumSubArray.exe homework_01/KeyFormatting.exe
 
 # =============================================================================
 # Built-in targets

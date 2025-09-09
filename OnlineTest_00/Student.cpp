@@ -9,16 +9,16 @@ struct Student {
  	char name[101];
  };
 
-// TODO: 补充具体的排序策略
+
 // 按学号升序排序
 bool sortByNoAsc(const Student& s1, const Student& s2) {
-    // TODO
+
     return s1.no<s2.no;
 }
 
 // 按学号降序排序
 bool sortByNoDesc(const Student& s1, const Student& s2) {
-    // TODO
+
     return s1.no>s2.no;
 }
 

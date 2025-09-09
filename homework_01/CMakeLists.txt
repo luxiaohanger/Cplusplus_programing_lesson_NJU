@@ -1,2 +1,5 @@
 add_executable(clock clock.cpp)
 add_executable(theKeyofFunc theKeyofFunc.cpp)
+add_executable(countFreqofABC countFreqofABC.cpp)
+add_executable(MinimumSubArray MinimumSubArray.cpp)
+add_executable(KeyFormatting KeyFormatting.cpp)

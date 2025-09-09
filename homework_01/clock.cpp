@@ -1,5 +1,6 @@
 #include<iostream>
 #include<cmath>
+#include <string>
 using namespace std;
  int secofMonth1[13]={0,31*24*60*60,28*24*60*60,31*24*60*60,30*24*60*60,31*24*60*60,
     30*24*60*60,31*24*60*60,31*24*60*60,30*24*60*60,31*24*60*60,30*24*60*60,31*24*60*60,};
@@ -106,108 +107,56 @@ int* realDate(long long secplus) {
 
 int main() {
     //input
-    int year,month,day,hour,min,sec=0;
-    char mon[15]="\0";
+    int year=0,month=0,day=0,hour=0,min=0,sec=0;
+    string mon;
     cin>>year>>mon>>day>>hour>>min>>sec;
-    //cout<<year<<mon<<day<<hour<<min<<sec;
-    //Jan,Feb,Mar,Apr,May,June,July,Aug,Sept,Oct,Nov,Dec
-    switch(mon[0]) {
-        case 'J': {
-            if(mon[1]=='a')month=1;
-            else if(mon[2]=='n')month=6;
-            else month=7;
-            break;
-        }
-        case 'F':
-            month=2;
-            break;
-        case 'M': {
-            if(mon[2]=='r')month=3;
-            else month=5;
-            break;
-        }
-        case 'A': {
-            if(mon[1]=='p')month=4;
-            else month=8;
-            break;
-        }
-        case 'S':
-            month=9;
-        break;
-        case 'O':
-            month=10;
-        break;
-        case 'N':
-            month=11;
-        break;
-        case 'D':
-            month=12;
-        break;
-    }
-   // cout<<year<<month<<day<<hour<<min<<sec;
-    //sec to 2024 9 16 0000
+
+    if(mon=="January")month=1;
+    else if(mon=="February")month=2;
+    else if(mon=="March")month=3;
+    else if(mon=="April")month=4;
+    else if(mon=="May")month=5;
+    else if(mon=="June")month=6;
+    else if(mon=="July")month=7;
+    else if(mon=="August")month=8;
+    else if(mon=="September")month=9;
+    else if(mon=="October")month=10;
+    else if(mon=="November")month=11;
+    else month=12;
+
     long long realsec=floor_div(secplus(year,month,day,hour,min,sec)*60.0,59.0);
-    // cout<<realsec;
-    // //2024-09-01T22:20:00
+
     int* date= realDate(realsec);
-    char* ans=new char[20];
+    string ans;
     //
-    int x1=date[0]/1000;
-    date[0]%=1000;
-    int x2=date[0]/100;
-    date[0]%=100;
-    int x3=date[0]/10;
-    date[0]%=10;
-    int x4=date[0];
-    ans[0]=x1+'0';
-    ans[1]=x2+'0';
-    ans[2]=x3+'0';
-    ans[3]=x4+'0';
+    ans+=to_string(date[0]);
     //
-    ans[4]='-';
+    ans+='-';
     //
-     x3=date[1]/10;
-    date[1]%=10;
-     x4=date[1];
-    ans[5]=x3+'0';
-    ans[6]=x4+'0';
+    if(date[1]>=10)ans+=to_string(date[1]);
+    else ans.append("0").append(to_string(date[1]));
     //
-    ans[7]='-';
+    ans+='-';
     //
-    x3=date[2]/10;
-    date[2]%=10;
-    x4=date[2];
-    ans[8]=x3+'0';
-    ans[9]=x4+'0';
+    if(date[2]>=10)ans+=to_string(date[2]);
+    else ans.append("0").append(to_string(date[2]));
     //
-    ans[10]='T';
+    ans+='T';
     //
-    x3=date[3]/10;
-    date[3]%=10;
-    x4=date[3];
-    ans[11]=x3+'0';
-    ans[12]=x4+'0';
+    if(date[3]>=10)ans+=to_string(date[3]);
+    else ans.append("0").append(to_string(date[3]));
     //
-    ans[13]=':';//2024-09-16T00:01:00
+    ans+=':';//2024-09-16T00:01:00
    //
-    x3=date[4]/10;
-    date[4]%=10;
-    x4=date[4];
-    ans[14]=x3+'0';
-    ans[15]=x4+'0';
+    if(date[4]>=10)ans+=to_string(date[4]);
+    else ans.append("0").append(to_string(date[4]));
     //
-    ans[16]=':';//2024-09-16T00:01:00
+    ans+=':';//2024-09-16T00:01:00
     //
-    x3=date[5]/10;
-    date[5]%=10;
-    x4=date[5];
-    ans[17]=x3+'0';
-    ans[18]=x4+'0';
-    ans[19]='\0';
+    if(date[5]>=10)ans+=to_string(date[5]);
+    else ans.append("0").append(to_string(date[5]));
     cout<<ans;
     delete[] date;
-    delete[] ans;
-
     return 0;
 
 }
